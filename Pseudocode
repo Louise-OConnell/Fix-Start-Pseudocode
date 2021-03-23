@@ -1,0 +1,12 @@
+Fix Start Pseudocode
+
+Create a FUNCTION called fixStart
+  Create a VARIABLE with a string of words - ('babble', 'turtle')
+    LOOP through all characters A-Z
+      IF character B is repeated again following first character, B will appear as * 
+        PRINT babble (ba**le)
+      ELSE IF character T is repeated again following first character, T will appear as *
+        PRINT turtle (tur*le)
+      ELSE other characters that are not b and t
+        PRINT as normal
+    END LOOP
